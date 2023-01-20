@@ -1,3 +1,4 @@
+# WIP
 # toggle-relativenumber.nvim
 
 Inspired by [jeffkreeftmeijer/vim-numbertoggle](https://github.com/jeffkreeftmeijer/vim-numbertoggle), written in Lua for Neovim.
