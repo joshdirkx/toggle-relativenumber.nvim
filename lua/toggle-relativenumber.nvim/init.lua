@@ -1,3 +1,6 @@
+local function setup(parameters)
+end
+
 local toggleNumbers = vim.api.nvim_create_augroup('toggleNumbers', { clear = true })
 
 vim.api.nvim_create_autocmd({ 'BufEnter', 'FocusGained', 'InsertLeave', 'WinEnter' }, {
@@ -16,3 +19,6 @@ vim.api.nvim_create_autocmd({ 'BufLeave', 'FocusLost', 'InsertEnter', 'WinLeave'
   end
 })
 
+return {
+  setup = setup,
+}
