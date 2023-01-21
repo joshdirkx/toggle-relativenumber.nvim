@@ -1,6 +1,6 @@
 # toggle-relativenumber.nvim
 
-![toggle-relativenumber.gif](gif showing plugin in action)
+![gif showing plugin in action](./toggle-relativenumber.gif)
 
 Automatically turns off relativenumber when leaving a buffer, and enables it when entering a buffer.
 
